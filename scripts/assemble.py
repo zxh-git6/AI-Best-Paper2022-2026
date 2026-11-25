@@ -544,14 +544,6 @@ def render_readme(rows: list[dict]) -> str:
 
 NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2023 和 2026 没有办会。EMNLP 2022 目前只能核实最佳长文和最佳短文。
 
-## 致谢
-
-获奖篇目的起点对照过 [FeijiangHan/Top-Conference-Best-Papers](https://github.com/FeijiangHan/Top-Conference-Best-Papers)。那个仓库用来知道「该去核对哪些标题」，这里的中文、分类和取舍是重新写的，没有沿用它的段落。每条都再对着会议官方授奖页、OpenReview、ACL Anthology 或 arXiv 核对过；对不上的不猜。
-
-笔记以 [CC BY 4.0](LICENSE) 发布。论文版权属于作者。
-
-机器可读的表在 [`data/papers.csv`](data/papers.csv)。按年份串起来的读后感在 [`TRENDS.md`](TRENDS.md)。
-
 """)
     for conf in order:
         rows_c = by.get(conf, [])
