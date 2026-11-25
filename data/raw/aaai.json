@@ -1,0 +1,830 @@
+{
+  "source_urls": [
+    "https://aaai.org/about-aaai/aaai-awards/aaai-conference-paper-awards-and-recognition/",
+    "https://aaai.org/about-aaai/aaai-awards/aaai-classic-paper-award/",
+    "https://aaai.org/about-aaai/aaai-awards/aaai-25-paper-awards/",
+    "https://aaai.org/about-aaai/aaai-awards/aaai-24-paper-awards/",
+    "https://aaai.org/wp-content/uploads/2023/02/AAAI-22-Paper-Awards.pdf",
+    "https://aaai-23.aaai.org/wp-content/uploads/2023/02/AAAI-23-Paper-Awards-1.pdf"
+  ],
+  "papers": [
+    {
+      "conference": "AAAI",
+      "year": 2025,
+      "award": "AAAI-25 Outstanding Paper Award",
+      "title": "Every Bit Helps: Achieving the Optimal Distortion with a Few Queries",
+      "authors": [
+        "Soroush Ebadian",
+        "Nisarg Shah"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33507",
+      "url_status": "已核实",
+      "domain_zh": "社会选择与偏好查询",
+      "did_zh": "这篇论文研究在只需向每个智能体询问少量基数效用时，如何为匹配和社会选择取得更优的失真保证。",
+      "insight_zh": "固定次数的基数询问可以把只靠排序信息时的最坏失真，改进到与查询次数相匹配的量级，并达到已有下界意义下的最优。",
+      "why_zh": "它把“再问几个数值就能把集体决策的最坏损失降到什么程度”从个别上界推进到对查询次数都成立的最优刻画。",
+      "doi": "10.1609/aaai.v39i13.33507"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2025,
+      "award": "AAAI-25 Outstanding Paper Award",
+      "title": "Efficient Rectification of Neuro-Symbolic Reasoning Inconsistencies by Abductive Reflection",
+      "authors": [
+        "Wen-Chao Hu",
+        "Wang-Zhou Dai",
+        "Yuan Jiang",
+        "Zhi-Hua Zhou"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33905",
+      "url_status": "已核实",
+      "domain_zh": "神经符号推理",
+      "did_zh": "这篇论文针对神经符号系统的输出与领域知识不一致的问题，提出基于反绎反思的纠正方法。",
+      "insight_zh": "训练时用领域知识反绎出反思向量，推理时就可以标出神经网络的可疑输出，并改写成符合知识约束的结果。",
+      "why_zh": "它把“先发现直觉错误、再调用审慎推理”做成可训练的纠正步骤，用来提高神经符号推理的一致性。",
+      "doi": "10.1609/aaai.v39i16.33905"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2025,
+      "award": "AAAI-25 Outstanding Paper Award",
+      "title": "Revelations: A Decidable Class of POMDPs with Omega-Regular Objectives",
+      "authors": [
+        "Marius Belly",
+        "Nathanaël Fijalkow",
+        "Hugo Gimbert",
+        "Florian Horn",
+        "Guillermo A. Pérez",
+        "Pierre Vandenhove"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34845",
+      "url_status": "已核实",
+      "domain_zh": "部分可观测决策",
+      "did_zh": "这篇论文划出一类带ω-正则目标的部分可观测马尔可夫决策过程，使“是否几乎必然满足规格”变得可判定。",
+      "insight_zh": "只要几乎必然最终能完全看到当前状态，弱揭示和强揭示情形就能归约到有限信念支撑上的马尔可夫决策过程。",
+      "why_zh": "它在原本不可判定的部分可观测验证问题里，找出仍能给出精确算法的一块子类。",
+      "doi": "10.1609/aaai.v39i25.34845"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2025,
+      "award": "AAAI-25 Outstanding Paper Award – AI for Social Alignment Track",
+      "title": "DivShift: Exploring Domain-Specific Distribution Shifts in Large-Scale, Volunteer-Collected Biodiversity Datasets",
+      "authors": [
+        "Elena Sierra",
+        "Lauren E. Gillespie",
+        "Salim Soltani",
+        "Moises Exposito-Alonso",
+        "Teja Kattenborn"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35060",
+      "url_status": "已核实",
+      "domain_zh": "生物多样性数据偏移",
+      "did_zh": "这篇论文提出 DivShift，用来分别衡量志愿者采集的大规模物种图像中各类领域偏移对识别模型的影响。",
+      "insight_zh": "公民科学数据里的地理、时间、类群、观察者和社会政治偏差来源不同，需要分开诊断它们如何改变细粒度物种识别。",
+      "why_zh": "它把社会影响场景中的真实采集偏差做成可分解的分布偏移分析，而不是只看总体精度。",
+      "doi": "10.1609/aaai.v39i27.35060",
+      "note": "获奖页列出 Elena Sierra、Lauren Gillespie、Moises Exposito Alonso；会议录作者还包括 Salim Soltani 与 Teja Kattenborn。"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "AAAI-24 Outstanding Paper Award",
+      "title": "GxVAEs: Two Joint VAEs Generate Hit Molecules from Gene Expression Profiles",
+      "authors": [
+        "Chen Li",
+        "Yoshihiro Yamanishi"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29248",
+      "url_status": "已核实",
+      "domain_zh": "分子生成",
+      "did_zh": "这篇论文用两个衔接的变分自编码器，从基因表达谱生成更贴近生物活性的候选分子。",
+      "insight_zh": "先从表达谱抽出反映细胞环境的隐变量，再用它作为条件去引导分子生成。",
+      "why_zh": "它把分子设计从只满足化学性质，推进到与具体疾病相关的细胞环境相联系。",
+      "doi": "10.1609/aaai.v38i12.29248"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "AAAI-24 Outstanding Paper Award",
+      "title": "Reliable Conflictive Multi-view Learning",
+      "authors": [
+        "Cai Xu",
+        "Jiajun Si",
+        "Ziyu Guan",
+        "Wei Zhao",
+        "Yue Wu",
+        "Xiyue Gao"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29546",
+      "url_status": "已核实",
+      "domain_zh": "多视图学习",
+      "did_zh": "这篇论文研究不同视图互相冲突时，模型如何同时给出决策和该决策的可靠程度。",
+      "insight_zh": "冲突样本不应只被删除或替换，而应在证据学习下为各视图的结论附上可靠性。",
+      "why_zh": "它把多视图学习从“默认视图一致”改成面对真实冲突数据仍要作出可衡量的决策。",
+      "doi": "10.1609/aaai.v38i14.29546"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "AAAI-24 Outstanding Paper Award",
+      "title": "Proportional Aggregation of Preferences for Sequential Decision Making",
+      "authors": [
+        "Nikhil Chandak",
+        "Shashwat Goel",
+        "Dominik Peters"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28813",
+      "url_status": "已核实",
+      "domain_zh": "序贯社会选择",
+      "did_zh": "这篇论文为多轮集体决策设计满足比例代表要求的投票规则，而不是每轮都选当下最多数。",
+      "insight_zh": "若某一比例的选民在若干轮中持续共同赞成同一方案，他们就应在最终决策序列里获得相应比例的认可结果。",
+      "why_zh": "它把多赢家投票中的比例性公理推广到随时间展开的集体决策。",
+      "doi": "10.1609/aaai.v38i9.28813"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "Best Paper for the AI for Social Impact track at AAAI-2024",
+      "title": "DISCount: Counting in Large Image Collections with Detector-Based Importance Sampling",
+      "authors": [
+        "Gustavo Perez",
+        "Subhransu Maji",
+        "Daniel Sheldon"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30235",
+      "url_status": "已核实",
+      "domain_zh": "大规模图像计数",
+      "did_zh": "这篇论文用并不完美的检测器做重要性抽样，并结合少量人工筛查来估计大图集中的物体数量。",
+      "insight_zh": "当检测器因任务难或域偏移而不准时，仍可用它引导抽样，再由人工复核得到低方差的无偏计数。",
+      "why_zh": "它直接对应灾害评估这类既要尽快出数、又不能完全相信自动检测的社会影响场景。",
+      "doi": "10.1609/aaai.v38i20.30235"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "Best Paper for the AI for Social Impact track at AAAI-2024 Honorable Mention",
+      "title": "Nowcasting Temporal Trends Using Indirect Surveys",
+      "authors": [
+        "Ajitesh Srivastava",
+        "Juan Marcos Ramírez",
+        "Sergio Díaz-Aranda",
+        "José Aguilar",
+        "Antonio Fernández Anta",
+        "Antonio Ortega",
+        "et al."
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30242",
+      "url_status": "已核实",
+      "domain_zh": "间接调查估计",
+      "did_zh": "这篇论文把间接调查从一次性估计扩展到可持续收集的数据，用来追踪隐藏人群规模的时间趋势。",
+      "insight_zh": "受访者报告自己所认识的人的情况时，不必停留在单次截面，也可以支持连续的临近预报。",
+      "why_zh": "它面向隐私敏感或难以直接接触的人群，讨论如何随时间更新规模估计。",
+      "doi": "10.1609/aaai.v38i20.30242"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "Best Student Paper for the AI for Social Impact track at AAAI-2024",
+      "title": "Scaling Up Pareto Optimization for Tree Structures with Affine Transformations: Evaluating Hybrid Floating Solar-Hydropower Systems in the Amazon",
+      "authors": [
+        "Marc Grimson",
+        "Rafael Almeida",
+        "Qinru Shi",
+        "Yiwei Bai",
+        "Hector Angarita",
+        "Felipe Siqueira Pacheco",
+        "et al."
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30210",
+      "url_status": "已核实",
+      "domain_zh": "可持续能源规划",
+      "did_zh": "这篇论文扩大带仿射变换的树结构帕累托优化，用来评估亚马逊流域水电站与漂浮光伏的组合。",
+      "insight_zh": "可持续决策需要整条帕累托前沿来展示目标之间的取舍，扩展后的多树网络可以同时考虑更多水坝配置。",
+      "why_zh": "它把多目标搜索算法接到亚马逊水电与光伏这一具体的能源和环境权衡上。",
+      "doi": "10.1609/aaai.v38i20.30210"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "Best Student Paper for the AI for Social Impact track at AAAI-2024 Honorable Mention",
+      "title": "Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification",
+      "authors": [
+        "A. Feder Cooper",
+        "Katherine Lee",
+        "Madiha Zahrah Choksi",
+        "Solon Barocas",
+        "Christopher De Sa",
+        "James Grimmelmann",
+        "et al."
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30203",
+      "url_status": "已核实",
+      "domain_zh": "公平分类",
+      "did_zh": "这篇论文指出，公平二分类基准中不同训练模型对同一样本的预测方差，可以大到使个别决策近乎任意。",
+      "insight_zh": "由方差导出的自一致性可以用来衡量这种任意性，集成模型也可以在预测过于任意时选择弃权。",
+      "why_zh": "它表明许多基准在计入预测任意性之后已经接近公平，从而质疑只比较组间误差的常规评测。",
+      "doi": "10.1609/aaai.v38i20.30203",
+      "note": "获奖公告标题为 Is My Prediction Arbitrary? The Confounding Effects of Variance in Fair Classification Benchmarks；会议录与 DOI 10.1609/aaai.v38i20.30203 使用现标题，作者与摘要一致。"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Outstanding Paper Award",
+      "title": "Misspecification in Inverse Reinforcement Learning",
+      "authors": [
+        "Joar Skalse",
+        "Alessandro Abate"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26766",
+      "url_status": "已核实",
+      "domain_zh": "逆强化学习",
+      "did_zh": "这篇论文分析最优性、玻尔兹曼理性和因果熵最大化等逆强化学习模型在设定错误时，会不会推出错误偏好。",
+      "insight_zh": "人类行为与偏好的真实关系比这些标准模型更复杂，因此需要刻画策略可以偏离模型多远才会造成不可靠推断。",
+      "why_zh": "它把“用行为反推偏好”从常用建模假设推进到对模型误设的数学边界。",
+      "doi": "10.1609/aaai.v37i12.26766"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "DropMessage: Unifying Random Dropping for Graph Neural Networks",
+      "authors": [
+        "Taoran Fang",
+        "Zhiqing Xiao",
+        "Chunping Wang",
+        "Jiarong Xu",
+        "Xuan Yang",
+        "Yang Yang"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25545",
+      "url_status": "已核实",
+      "domain_zh": "图神经网络",
+      "did_zh": "这篇论文提出在消息传递时直接丢弃传播消息的 DropMessage，用来统一图神经网络上的随机丢弃方法。",
+      "insight_zh": "在边上丢弃消息可以覆盖多种已有的随机丢弃做法，并有助于稳定训练、缓解过拟合和过平滑。",
+      "why_zh": "它不只增加一种正则技巧，而是给图上的随机丢弃补上统一解释。",
+      "doi": "10.1609/aaai.v37i4.25545"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "Two Heads are Better than One: Image-Point Cloud Network for Depth-Based 3D Hand Pose Estimation",
+      "authors": [
+        "Pengfei Ren",
+        "Yuchen Chen",
+        "Jiachang Hao",
+        "Haifeng Sun",
+        "Qi Qi",
+        "Jingyu Wang",
+        "et al."
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25310",
+      "url_status": "已核实",
+      "domain_zh": "三维手部姿态",
+      "did_zh": "这篇论文把深度图上的二维卷积特征与点云上的三维几何校正结合起来，估计三维手部姿态。",
+      "insight_zh": "图像分支效率高但会丢掉深度的三维结构，点云分支能利用几何却更重，两者迭代配合可以互相补足。",
+      "why_zh": "它针对深度数据既是图像又是三维点这一双重性，给出明确的双分支设计。",
+      "doi": "10.1609/aaai.v37i2.25310"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "Neural Architecture Search for Wide Spectrum Adversarial Robustness",
+      "authors": [
+        "Zhi Cheng",
+        "Yanxi Li",
+        "Minjing Dong",
+        "Xiu Su",
+        "Shan You",
+        "Chang Xu"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25118",
+      "url_status": "已核实",
+      "domain_zh": "对抗鲁棒性",
+      "did_zh": "这篇论文用神经架构搜索寻找在多种对抗噪声强度下都更鲁棒的网络，而不是只针对单一噪声幅度优化。",
+      "insight_zh": "轻量的噪声估计和高效搜索，可以把验证从单一扰动预算扩展到一个较宽的扰动范围。",
+      "why_zh": "它指出只在一个预先选定的攻击强度上做鲁棒训练，难以保证面对更强扰动时仍然有效。",
+      "doi": "10.1609/aaai.v37i1.25118"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "CowClip: Reducing CTR Prediction Model Training Time from 12 hours to 10 minutes on 1 GPU",
+      "authors": [
+        "Zangwei Zheng",
+        "Pengtai Xu",
+        "Xuan Zou",
+        "Da Tang",
+        "Zhen Li",
+        "Chenguang Xi",
+        "et al."
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26347",
+      "url_status": "已核实",
+      "domain_zh": "点击率预测",
+      "did_zh": "这篇论文提出按列自适应裁剪的 CowClip，使点击率模型能够在单卡上用大批量更快训练。",
+      "insight_zh": "特征标识的出现频率差异很大，使视觉和语言里常用的大批量缩放规则在点击率网络上失效，因此需要按列控制更新。",
+      "why_zh": "它针对推荐模型需要频繁更新的训练成本，给出扩展到大批量时的稳定化方法。",
+      "doi": "10.1609/aaai.v37i9.26347"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "DICNet: Deep Instance-Level Contrastive Network for Double Incomplete Multi-View Multi-Label Classification",
+      "authors": [
+        "Chengliang Liu",
+        "Jie Wen",
+        "Xiaoling Luo",
+        "Chao Huang",
+        "Zhihao Wu",
+        "Yong Xu"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26059",
+      "url_status": "已核实",
+      "domain_zh": "多视图多标签学习",
+      "did_zh": "这篇论文用实例级对比网络处理视图特征和标签同时缺失的多视图多标签分类。",
+      "insight_zh": "相比只修补浅层特征，先用堆叠自编码器抽出各视图的高层语义，再在实例层面做对比，更适合双重不完整数据。",
+      "why_zh": "它把采集中特征缺失和标签缺失同时发生的情况当成要解决的学习设定。",
+      "doi": "10.1609/aaai.v37i7.26059"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "Exploring Tuning Characteristics of Ventral Stream’s Neurons for Few-Shot Image Classification",
+      "authors": [
+        "Lintao Dong",
+        "Wei Zhai",
+        "Zheng-Jun Zha"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25128",
+      "url_status": "已核实",
+      "domain_zh": "小样本图像分类",
+      "did_zh": "这篇论文把腹侧视觉通路中对形状和颜色敏感的神经元调谐特性，用作小样本分类网络的正则。",
+      "insight_zh": "用计算模型模仿这些神经元对前景更强的响应，可以促使骨干网络抽出更通用的视觉特征。",
+      "why_zh": "它把神经科学中的特征调谐观察转成对小样本表示学习的具体约束。",
+      "doi": "10.1609/aaai.v37i1.25128"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "MaskBooster: End-to-End Self-Training for Sparsely Supervised Instance Segmentation",
+      "authors": [
+        "Shida Zheng",
+        "Chenshu Chen",
+        "Xi Yang",
+        "Wenming Tan"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25481",
+      "url_status": "已核实",
+      "domain_zh": "实例分割",
+      "did_zh": "这篇论文在只有完整框标注和稀疏掩码标注时，用在线自训练提升实例分割。",
+      "insight_zh": "由不断更新的教师网络产生伪掩码，再用框先验修正二值掩码，并用蒸馏学习类间的软预测分布。",
+      "why_zh": "它把稀疏掩码监督下的自训练做成可以接到全监督分割器上的端到端框架。",
+      "doi": "10.1609/aaai.v37i3.25481"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "SimFair: A Unified Framework for Fairness-Aware Multi-Label Classification",
+      "authors": [
+        "Tianci Liu",
+        "Haoyu Wang",
+        "Yaqing Wang",
+        "Xiaoqian Wang",
+        "Lu Su",
+        "Jing Gao"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26677",
+      "url_status": "已核实",
+      "domain_zh": "公平多标签分类",
+      "did_zh": "这篇论文把人口统计均等和机会均等推广到每个样本带有多个标签的分类，并提出统一的公平学习框架。",
+      "insight_zh": "多标签分布不均衡时，机会均等在稀有标签上难以稳定估计，因此需要新的公平处理方式。",
+      "why_zh": "它补上公平机器学习长期集中于单标签、而多标签缺少定义的空缺。",
+      "doi": "10.1609/aaai.v37i12.26677"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "XRand: Differentially Private Defense against Explanation-Guided Attacks",
+      "authors": [
+        "Truc Nguyen",
+        "Phung Lai",
+        "Hai Phan",
+        "My T. Thai"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26401",
+      "url_status": "已核实",
+      "domain_zh": "可解释性与隐私",
+      "did_zh": "这篇论文在模型解释上引入局部差分隐私，用来防御对手利用特征解释攻击黑盒模型。",
+      "insight_zh": "特征解释会暴露模型最依赖的输入，对解释做随机化可以限制攻击者从中拿到的信息。",
+      "why_zh": "它正面处理解释既能增加信任、也会扩大攻击面这一矛盾。",
+      "doi": "10.1609/aaai.v37i10.26401"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "Clustering What Matters: Optimal Approximation for Clustering with Outliers",
+      "authors": [
+        "Akanksha Agrawal",
+        "Tanmay Inamdar",
+        "Saket Saurabh",
+        "Jie Xue"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25818",
+      "url_status": "已核实",
+      "domain_zh": "带离群点的聚类",
+      "did_zh": "这篇论文给出在排除一定数量离群点之后做聚类的固定参数可解近似算法。",
+      "insight_zh": "算法对簇数和离群点个数是固定参数可解的，近似比可以接近不含离群点时的对应问题。",
+      "why_zh": "它把带离群点的 k-median 和 k-means 推进到与无离群版本几乎同级的近似保证。",
+      "doi": "10.1609/aaai.v37i6.25818"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "Robust Average-Reward Markov Decision Processes",
+      "authors": [
+        "Yue Wang",
+        "Alvaro Velasquez",
+        "George Atia",
+        "Ashley Prater-Bennette",
+        "Shaofeng Zou"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/26775",
+      "url_status": "已核实",
+      "domain_zh": "鲁棒强化学习",
+      "did_zh": "这篇论文研究转移核不确定时，如何优化最坏情况下的平均回报，而不是折扣回报。",
+      "insight_zh": "当折扣因子趋近于 1，鲁棒折扣值会收敛到鲁棒平均回报，而且折扣足够接近 1 时两者的最优策略一致。",
+      "why_zh": "它把鲁棒马尔可夫决策过程从常见的折扣设定扩展到长期平均回报。",
+      "doi": "10.1609/aaai.v37i12.26775"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Distinguished Paper Award",
+      "title": "Efficient Answer Enumeration in Description Logics with Functional Roles",
+      "authors": [
+        "Carsten Lutz",
+        "Marcin Przybylko"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25797",
+      "url_status": "已核实",
+      "domain_zh": "描述逻辑",
+      "did_zh": "这篇论文研究带函数角色的描述逻辑本体上，合取查询答案可以多快被逐条枚举。",
+      "insight_zh": "当与函数角色相关的查询扩展无环且自由连通无环时，完全答案和部分答案都可以线性预处理、常数延迟地枚举。",
+      "why_zh": "它为本体媒介查询给出了与下界相匹配的高效枚举条件。",
+      "doi": "10.1609/aaai.v37i5.25797"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI-23 Outstanding Student Paper",
+      "title": "Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation",
+      "authors": [
+        "Yulu Gan",
+        "Yan Bai",
+        "Yihang Lou",
+        "Xianzheng Ma",
+        "Renrui Zhang",
+        "Nian Shi",
+        "et al."
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25922",
+      "url_status": "已核实",
+      "domain_zh": "持续测试时适应",
+      "did_zh": "这篇论文在源模型参数保持冻结时，用图像层的视觉域提示去适应不断变化的无标注目标域。",
+      "insight_zh": "与其用噪声伪标签更新模型，不如学习域相关和域无关两类提示，把新域输入改写后再交给原模型。",
+      "why_zh": "它把持续测试时适应从改参数转到改输入，以减轻遗忘和误差累积。",
+      "doi": "10.1609/aaai.v37i6.25922"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Outstanding Paper Award",
+      "title": "Online Certification of Preference-based Fairness for Personalized Recommender Systems",
+      "authors": [
+        "Virginie Do",
+        "Sam Corbett-Davies",
+        "Jamal Atif",
+        "Nicolas Usunier"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20606",
+      "url_status": "已核实",
+      "domain_zh": "推荐公平",
+      "did_zh": "这篇论文用无嫉妒这一基于个人偏好的标准，在线审计个性化推荐是否公平。",
+      "insight_zh": "审计需要估计用户对未见推荐的偏好，因此被写成多臂赌博机上的纯探索问题，并要求抽样不损害体验。",
+      "why_zh": "它把推荐公平从群体层面的粗粒度均等，推进到可以在线验证的个体偏好标准。",
+      "doi": "10.1609/aaai.v36i6.20606"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Outstanding Paper Award Honorable Mention",
+      "title": "Bayesian Persuasion in Sequential Decision-Making",
+      "authors": [
+        "Jiarui Gan",
+        "Rupak Majumdar",
+        "Goran Radanovic",
+        "Adish Singla"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20434",
+      "url_status": "已核实",
+      "domain_zh": "序贯贝叶斯劝说",
+      "did_zh": "这篇论文研究知情的委托人如何在多步决策中，向并不掌握外部参数的代理人发送建议信号。",
+      "insight_zh": "面对每步只顾当前奖励的短视代理人，委托人存在可以在多项式时间内算出的最优信号策略。",
+      "why_zh": "它把静态的贝叶斯劝说扩展到状态会随行动演化的序贯场景。",
+      "doi": "10.1609/aaai.v36i5.20434"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Outstanding Paper Award Honorable Mention",
+      "title": "Operator-Potential Heuristics for Symbolic Search",
+      "authors": [
+        "Daniel Fišer",
+        "Alvaro Torralba",
+        "Joerg Hoffmann"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21210",
+      "url_status": "已核实",
+      "domain_zh": "符号启发式搜索",
+      "did_zh": "这篇论文把基于线性规划的势函数启发式嵌入用二元决策图表示状态集的符号搜索。",
+      "insight_zh": "这类启发式在每个算子上引起的值变化可以预先算好，因此不必再对单个状态逐个评估。",
+      "why_zh": "它打通了可采纳势函数与符号规划之间长期难以结合的一环。",
+      "doi": "10.1609/aaai.v36i9.21210"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Distinguished Paper",
+      "title": "AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning",
+      "authors": [
+        "Enmin Zhao",
+        "Renye Yan",
+        "Jinqiu Li",
+        "Kai Li",
+        "Junliang Xing"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20394",
+      "url_status": "已核实",
+      "domain_zh": "不完美信息博弈",
+      "did_zh": "这篇论文用端到端自博弈强化学习训练双人无限注德州扑克智能体，而不依赖反事实遗憾最小化。",
+      "insight_zh": "伪孪生网络直接从牌面和下注状态映射到动作，并通过与自己的历史版本对战来学习。",
+      "why_zh": "它表明高性能扑克智能体不必绑在计算代价很高的遗憾最小化迭代上。",
+      "doi": "10.1609/aaai.v36i4.20394"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Distinguished Paper",
+      "title": "Certified Symmetry and Dominance Breaking for Combinatorial Optimisation",
+      "authors": [
+        "Bart Bogaerts",
+        "Stephan Gocht",
+        "Ciaran McCreesh",
+        "Jakob Nordström"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20283",
+      "url_status": "已核实",
+      "domain_zh": "组合优化证明",
+      "did_zh": "这篇论文在切割平面证明系统上，为使用对称性破缺和支配破缺的优化求解生成可机器检验的证书。",
+      "insight_zh": "这些加速技巧的正确性往往依赖微妙论证，因此需要把它们写进可以高效验证的证明。",
+      "why_zh": "它把 SAT 中的对称破缺以及异或、基数约束等技术纳入统一的可认证求解框架。",
+      "doi": "10.1609/aaai.v36i4.20283"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Distinguished Paper",
+      "title": "Online Elicitation of Necessarily Optimal Matchings",
+      "authors": [
+        "Jannik Peters"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20451",
+      "url_status": "已核实",
+      "domain_zh": "偏好询问与匹配",
+      "did_zh": "这篇论文研究在房屋分配中在线询问偏好，以找到在所有可能补全下都最优的匹配。",
+      "insight_zh": "对必然秩极大匹配，在下一最优查询模型中给出了竞争比为 3/2 的在线询问算法。",
+      "why_zh": "它回答了该询问模型中关于必然最优匹配的一个公开问题，并扩展了询问设定。",
+      "doi": "10.1609/aaai.v36i5.20451"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Distinguished Paper",
+      "title": "Sampling-Based Robust Control of Autonomous Systems with Non-Gaussian Noise",
+      "authors": [
+        "Thom S. Badings",
+        "Alessandro Abate",
+        "Nils Jansen",
+        "David Parker",
+        "Hasan A. Poonawala",
+        "Marielle Stoelinga"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21201",
+      "url_status": "已核实",
+      "domain_zh": "鲁棒控制",
+      "did_zh": "这篇论文在噪声分布未知、也不必是高斯时，为自主系统设计带概率安全保证的控制器。",
+      "insight_zh": "先把连续系统抽象成带概率转移的离散模型，再用场景法给这些转移概率建立大概正确界。",
+      "why_zh": "它去掉了安全关键控制里噪声已知且为高斯这一常见但不现实的假设。",
+      "doi": "10.1609/aaai.v36i9.21201"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Distinguished Paper",
+      "title": "Subset approximation of Pareto Regions with Bi-objective A*",
+      "authors": [
+        "Nicolás Rivera",
+        "Jorge A. Baier",
+        "Carlos Hernández"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21276",
+      "url_status": "已核实",
+      "domain_zh": "双目标搜索",
+      "did_zh": "这篇论文用两个参数变换目标，近似双目标帕累托集中有代表性的子集，而不是穷尽整个前沿。",
+      "insight_zh": "完整帕累托集往往太大，而且搜索早期的解会挤在一小块区域；参数化后的目标问题可以支撑随时返回结果的搜索。",
+      "why_zh": "它让双目标 A* 可以更早给出分布更开的近似解集。",
+      "doi": "10.1609/aaai.v36i9.21276"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Distinguished Paper",
+      "title": "The SoftCumulative Constraint with Quadratic Penalty",
+      "authors": [
+        "Yanick Ouellet",
+        "Claude-Guy Quimper"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20296",
+      "url_status": "已核实",
+      "domain_zh": "约束规划",
+      "did_zh": "这篇论文为允许资源超载但要受惩罚的 SoftCumulative 约束给出检测和过滤算法，并支持二次惩罚。",
+      "insight_zh": "算法借鉴累积约束上的能量推理，使超载惩罚既可以随超载量线性增长，也可以二次增长。",
+      "why_zh": "它把调度里常用的软累积约束从简单分解推进到更强、更通用的约束传播。",
+      "doi": "10.1609/aaai.v36i4.20296"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Outstanding Student Paper",
+      "title": "InfoLM: A New Metric to Evaluate Summarization & Data2Text Generation",
+      "authors": [
+        "Pierre Colombo",
+        "Chloé Clavel",
+        "Pablo Piantanida"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21299",
+      "url_status": "已核实",
+      "domain_zh": "文本生成评价",
+      "did_zh": "这篇论文用预训练掩码语言模型上的信息测度，构造一族不必再训练的摘要和数据到文本评价指标。",
+      "insight_zh": "BLEU、ROUGE 一类字符串匹配难以处理同义改写，而 InfoLM 可以按不同信息测度适应不同评价标准。",
+      "why_zh": "它在人工评价昂贵的前提下，给出比表面重合更贴近语义的自动指标。",
+      "doi": "10.1609/aaai.v36i10.21299"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Outstanding Student Paper Honorable Mention",
+      "title": "Compilation of Aggregates in ASP Systems",
+      "authors": [
+        "Giuseppe Mazzotta",
+        "Francesco Ricca",
+        "Carmine Dodaro"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20527",
+      "url_status": "已核实",
+      "domain_zh": "回答集编程",
+      "did_zh": "这篇论文为带聚合原子的回答集程序设计编译方法，以减轻接地阶段的组合爆炸。",
+      "insight_zh": "以往用编译绕过接地瓶颈的技术没有覆盖聚合，而聚合又是回答集编程里最常用的构造之一。",
+      "why_zh": "它把编译路线补到了学术和工业程序都大量使用的聚合上。",
+      "doi": "10.1609/aaai.v36i5.20527"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI-22 Outstanding Student Paper Honorable Mention",
+      "title": "Entropy estimation via normalizing flow",
+      "authors": [
+        "Ziqiao Ao",
+        "Jinglai Li"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21237",
+      "url_status": "已核实",
+      "domain_zh": "熵估计",
+      "did_zh": "这篇论文用归一化流把高维样本推向均匀分布，再配合改进的近邻估计来降低维数带来的熵估计偏差。",
+      "insight_zh": "接近均匀的样本上近邻估计偏差更小，而流模型提供了熵在变换前后可以换算的映射。",
+      "why_zh": "它针对高维熵估计偏差随维数迅速变大的问题，给出一条先变换再估计的路径。",
+      "doi": "10.1609/aaai.v36i9.21237"
+    }
+  ],
+  "test_of_time": [
+    {
+      "conference": "AAAI",
+      "year": 2025,
+      "award": "AAAI Classic Paper Award",
+      "title": "Toward an Architecture for Never-Ending Language Learning",
+      "authors": [
+        "Andrew Carlson",
+        "Justin Betteridge",
+        "Bryan Kisiel",
+        "Burr Settles",
+        "Estevam Hruschka",
+        "Tom Mitchell"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/7519",
+      "url_status": "已核实",
+      "domain_zh": "持续语言学习",
+      "did_zh": "这篇论文提出一个持续运行的语言学习体：每天从网页抽取结构化知识，并让抽取本身一天比一天更好。",
+      "insight_zh": "系统要同时维护不断增长的知识库和更好的阅读能力，而不是做一次静态信息抽取。",
+      "why_zh": "它把从开放网络中持续学习做成可运行的架构，并在十余年后因这一路线的长期影响获得经典论文奖。",
+      "doi": "10.1609/aaai.v24i1.7519",
+      "original_year": 2010
+    },
+    {
+      "conference": "AAAI",
+      "year": 2024,
+      "award": "AAAI Classic Paper Award",
+      "title": "Maximum Entropy Inverse Reinforcement Learning",
+      "authors": [
+        "Brian D. Ziebart",
+        "Andrew Maas",
+        "J. Andrew Bagnell",
+        "Anind K. Dey"
+      ],
+      "url": "https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf",
+      "url_status": "已核实",
+      "domain_zh": "逆强化学习",
+      "did_zh": "这篇论文用最大熵原则从示范行为中恢复奖励，使由此得到的策略接近演示者。",
+      "insight_zh": "在匹配特征期望的前提下，最大熵分布不对路径作额外偏好，从而给出全局归一化的决策序列分布。",
+      "why_zh": "它为含噪和次优示范下的模仿学习提供了基础方法，经典论文奖强调其对预测、模仿和决策建模的长期影响。",
+      "original_year": 2008
+    },
+    {
+      "conference": "AAAI",
+      "year": 2023,
+      "award": "AAAI Classic Paper Award",
+      "title": "Theta*: Any-Angle Path Planning on Grids",
+      "authors": [
+        "Alex Nash",
+        "Kenny Daniel",
+        "Sven Koenig",
+        "Ariel Felner"
+      ],
+      "url": "https://cdn.aaai.org/AAAI/2007/AAAI07-187.pdf",
+      "url_status": "已核实",
+      "domain_zh": "任意角度路径规划",
+      "did_zh": "这篇论文提出 Theta*，在网格上沿边传播信息，但不再把路径限制在网格边上。",
+      "insight_zh": "这样得到的路径比只能走网格边的搜索更短，也更接近真实地形中任意角度的路线。",
+      "why_zh": "它成为游戏和机器人网格规划里任意角度寻路的基础算法，并因此获得经典论文奖。",
+      "original_year": 2007
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI Classic Paper Award",
+      "title": "Winning the DARPA Grand Challenge with an AI Robot",
+      "authors": [
+        "Michael Montemerlo",
+        "Sebastian Thrun",
+        "Hendrik Dahlkamp",
+        "David Stavens",
+        "Sven Strohband"
+      ],
+      "url": "https://www.aaai.org/Papers/AAAI/2006/AAAI06-154.pdf",
+      "url_status": "已核实",
+      "domain_zh": "自主驾驶",
+      "did_zh": "这篇论文介绍无人车 Stanley 的软件架构，它在没有人工干预的高速沙漠驾驶中赢得了 DARPA Grand Challenge。",
+      "insight_zh": "系统把机器学习和概率推理贯穿到传感器噪声处理和驾驶控制中，而不是只在单一模块使用人工智能。",
+      "why_zh": "经典论文奖表彰它用概率推理处理传感器噪声、并用路径规划控制驾驶参数，从而推动自主地面车辆。",
+      "original_year": 2006
+    },
+    {
+      "conference": "AAAI",
+      "year": 2022,
+      "award": "AAAI Classic Paper Honorable Mention",
+      "title": "Corpus-Based and Knowledge-Based Measures of Text Semantic Similarity",
+      "authors": [
+        "Rada Mihalcea",
+        "Courtney Corley",
+        "Carlo Strapparava"
+      ],
+      "url": "https://cdn.aaai.org/AAAI/2006/AAAI06-123.pdf",
+      "url_status": "已核实",
+      "domain_zh": "短文本语义相似度",
+      "did_zh": "这篇论文用基于语料和基于知识的词相似度，再按词的特异度加权，来衡量短文本的语义相似度。",
+      "insight_zh": "短文本里词面重合很少，把词汇知识和语料共现结合起来，比单纯的词面匹配更能识别释义关系。",
+      "why_zh": "经典论文荣誉提名指出，它开创了用词义来评估文本相似度的路线。",
+      "original_year": 2006
+    }
+  ]
+}
