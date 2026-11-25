@@ -742,6 +742,14 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://proceedings.mlr.press/v28/zemel13.html) · Richard Zemel, Yu Wu, Kevin Swersky, Toni Pitassi, Cynthia Dwork
   学习一种既保留任务信息、又让敏感属性难以被读出的表示。
 
+* **Deep Canonical Correlation Analysis**（Test of Time Runner-up，2023 年颁发，原论文 2013）
+  [论文](https://proceedings.mlr.press/v28/andrew13.html) · Galen Andrew, Raman Arora, Jeff Bilmes, Karen Livescu
+  把典型相关分析做到深度网络，让两种视图的表示按相关而不是按重构对齐。
+
+* **Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures**（Test of Time Runner-up，2023 年颁发，原论文 2013）
+  [论文](https://proceedings.mlr.press/v28/bergstra13.html) · James Bergstra, Daniel Yamins, David Cox
+  把超参搜索写成可以比较的实验科学，而不是每个人一套手调。
+
 * **Poisoning Attacks Against Support Vector Machines**（Test of Time，2022 年颁发，原论文 2012）
   [论文](https://arxiv.org/abs/1206.6389) · Battista Biggio, Blaine Nelson, Pavel Laskov
   展示通过污染训练集可以操纵支持向量机的预测。
@@ -830,25 +838,6 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://aclanthology.org/2026.acl-long.1657) · Michael Ginn, Lindia Tjuatja, Enora Rice, Ali Marashian, Maria Valentini, Jasmine Xu, Graham Neubig, Alexis Palmer
   分词和注释在很多语言上一起做，而不是先切词再逐词解释。
 
-### Best Theme Paper
-
-* **CoSToM: Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment in Large Language Models**
-  [论文](https://aclanthology.org/2026.acl-long.421) · Mengfan Li, Xuanhua Shi, Yang Deng
-
-* **Mapping the Circumplex of Affect: Geometric Analysis of Emotion Representations via Hyperspherical Contrastive Learning**
-  [论文](https://aclanthology.org/2026.acl-long.772) · Yusuke Yamauchi, Akiko Aizawa
-
-### Best Social Impact Paper
-
-* **DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects**
-  [论文](https://aclanthology.org/2026.acl-long.144) · Jason S Lucas, Matt Murtagh White, Ali Al-Lawati, Uchendu Uchendu, Adaku Uchendu, Dongwon Lee
-
-* **Your Students Don't Use LLMs Like You Wish They Did**
-  [论文](https://doi.org/10.48448/b40n-qe66) · Sebastian Kobler, Matthew Clemson, Angela Sun, Jonathan K. Kummerfeld
-
-* **Afri-MCQA: Multimodal Cultural Question Answering for African Languages**
-  [论文](https://doi.org/10.48448/9tw9-e625) · Atnafu Lambebo Tonja, Srija Anand, Emilio Villa-Cueva, Israel Abebe Azime, Jesujoba Oluwadara Alabi, Muhidin A Mohamed 等
-
 ### Best Resource Paper
 
 * **HSCodeComp: A Realistic and Expert-level Agent Benchmark for Hierarchical Rule Application**
@@ -862,6 +851,25 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 
 * **VeriTaS: The First Dynamic Benchmark for Multimodal Automated Fact-Checking**
   [论文](https://aclanthology.org/2026.acl-long.1948) · Mark Rothermel, Marcus Kornmann, Marcus Rohrbach, Anna Rohrbach
+
+### Best Social Impact Paper
+
+* **DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects**
+  [论文](https://aclanthology.org/2026.acl-long.144) · Jason S Lucas, Matt Murtagh White, Ali Al-Lawati, Uchendu Uchendu, Adaku Uchendu, Dongwon Lee
+
+* **Your Students Don't Use LLMs Like You Wish They Did**
+  [论文](https://doi.org/10.48448/b40n-qe66) · Sebastian Kobler, Matthew Clemson, Angela Sun, Jonathan K. Kummerfeld
+
+* **Afri-MCQA: Multimodal Cultural Question Answering for African Languages**
+  [论文](https://doi.org/10.48448/9tw9-e625) · Atnafu Lambebo Tonja, Srija Anand, Emilio Villa-Cueva, Israel Abebe Azime, Jesujoba Oluwadara Alabi, Muhidin A Mohamed 等
+
+### Best Theme Paper
+
+* **CoSToM: Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment in Large Language Models**
+  [论文](https://aclanthology.org/2026.acl-long.421) · Mengfan Li, Xuanhua Shi, Yang Deng
+
+* **Mapping the Circumplex of Affect: Geometric Analysis of Emotion Representations via Hyperspherical Contrastive Learning**
+  [论文](https://aclanthology.org/2026.acl-long.772) · Yusuke Yamauchi, Akiko Aizawa
 
 ## 2025
 
@@ -915,7 +923,7 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter**
   [论文](https://aclanthology.org/2025.acl-long.115) · Manuel Tonneau, Diyi Liu, Niyati Malhotra, Scott A. Hale, Samuel Fraiberger, Victor Orozco-Olvera, Paul Röttger
 
-* **IOT: Embedding Standardization Method Towards Zero Modality Gap**
+* **I0T: Embedding Standardization Method Towards Zero Modality Gap**
   [论文](https://aclanthology.org/2025.acl-long.1319/) · Na Min An, Eunki Kim, James Thorne, Hyunjung Shim
 
 * **IndicSynth: A Large-Scale Multilingual Synthetic Speech Dataset for Low-Resource Indian Languages**
@@ -963,25 +971,6 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **Typology-Guided Adaptation for African NLP**
   链接待补充 · Ndapa Nakashole
 
-### Best Theme Paper
-
-* **MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection**
-  [论文](https://aclanthology.org/2025.acl-long.1006) · Yixian Shen, Qi Bi, JIA-HONG HUANG, Hongyi Zhu, Andy D. Pimentel, Anuj Pathania
-
-* **Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models**
-  [论文](https://aclanthology.org/2025.acl-long.533) · Xinlin Zhuang, Jiahui Peng, Ren Ma, Yinfan Wang, Tianyi Bai, Xingjian Wei 等
-
-* **SubLIME: Subset Selection via Rank Correlation Prediction for Data-Efficient LLM Evaluation**
-  [论文](https://aclanthology.org/2025.acl-long.1477) · Gayathri Saranathan, Cong Xu, Mahammad Parwez Alam, Tarun Kumar, Martin Foltin, Soon Yee Wong, Suparna Bhattacharya
-
-### Best Social Impact Paper
-
-* **AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset**
-  [论文](https://aclanthology.org/2025.acl-long.96) · Charles Nimo, Tobi Olatunji, Abraham Toluwase Owodunni, Tassallah Abdullahi, Emmanuel Ayodele, Mardhiyah Sanni 等
-
-* **The AI Gap: How Socioeconomic Status Affects Language Technology Interactions**
-  [论文](https://aclanthology.org/2025.acl-long.914) · Elisa Bassignana, Amanda Cercas Curry, Dirk Hovy
-
 ### Best Resource Paper
 
 * **Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral**
@@ -992,6 +981,25 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 
 * **Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs**
   [论文](https://aclanthology.org/2025.acl-long.1579) · Fakhraddin Alwajih, Abdellah EL MEKKI, Samar Mohamed Magdy, AbdelRahim A. Elmadany, OMER NACAR, El Moatez Billah Nagoudi 等
+
+### Best Social Impact Paper
+
+* **AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset**
+  [论文](https://aclanthology.org/2025.acl-long.96) · Charles Nimo, Tobi Olatunji, Abraham Toluwase Owodunni, Tassallah Abdullahi, Emmanuel Ayodele, Mardhiyah Sanni 等
+
+* **The AI Gap: How Socioeconomic Status Affects Language Technology Interactions**
+  [论文](https://aclanthology.org/2025.acl-long.914) · Elisa Bassignana, Amanda Cercas Curry, Dirk Hovy
+
+### Best Theme Paper
+
+* **MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection**
+  [论文](https://aclanthology.org/2025.acl-long.1006) · Yixian Shen, Qi Bi, JIA-HONG HUANG, Hongyi Zhu, Andy D. Pimentel, Anuj Pathania
+
+* **Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models**
+  [论文](https://aclanthology.org/2025.acl-long.533) · Xinlin Zhuang, Jiahui Peng, Ren Ma, Yinfan Wang, Tianyi Bai, Xingjian Wei 等
+
+* **SubLIME: Subset Selection via Rank Correlation Prediction for Data-Efficient LLM Evaluation**
+  [论文](https://aclanthology.org/2025.acl-long.1477) · Gayathri Saranathan, Cong Xu, Mahammad Parwez Alam, Tarun Kumar, Martin Foltin, Soon Yee Wong, Suparna Bhattacharya
 
 ## 2024
 
@@ -1126,11 +1134,21 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **Word Embeddings Are Steers for Language Models**
   [论文](https://aclanthology.org/2024.acl-long.864) · Chi Han, Jialiang Xu, Manling Li, Yi Fung, Chenkai Sun, Nan Jiang, Tarek F. Abdelzaher, Heng Ji
 
-### Best Theme Paper
+* **On Efficient and Statistical Quality Estimation for Data Annotation**
+  [论文](https://aclanthology.org/2024.acl-long.837/) · Jan-Christoph Klie, Juan Haladjian, Marc Kirchner, Rahul Nair
+  专家不能复查全部标注时，抽查多少才能及时发现质量不够。
 
-* **OLMo: Accelerating the Science of Language Models**
-  [论文](https://aclanthology.org/2024.acl-long.841) · Dirk Groeneveld, Iz Beltagy, Evan Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord 等
-  连训练数据、代码和中间检查点一起放开，语言模型研究才有办法被别人核对。
+### Best Resource Paper
+
+* **Latxa: An Open Language Model and Evaluation Suite for Basque**
+  [论文](https://aclanthology.org/2024.acl-long.799) · Julen Etxaniz, Oscar Sainz, Naiara Perez Miguel, Itziar Aldabe, German Rigau, Eneko Agirre 等
+
+* **Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research**
+  [论文](https://aclanthology.org/2024.acl-long.840) · Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur 等
+  开放预训练语料本身就是结果，否则别人无法重复你声称的训练。
+
+* **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents**
+  [论文](https://aclanthology.org/2024.acl-long.850) · Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li 等
 
 ### Best Social Impact Paper
 
@@ -1144,17 +1162,11 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **Having Beer after Prayer? Measuring Cultural Bias in Large Language Models**
   [论文](https://aclanthology.org/2024.acl-long.862) · Tarek Naous, Michael J Ryan, Alan Ritter, Wei Xu
 
-### Best Resource Paper
+### Best Theme Paper
 
-* **Latxa: An Open Language Model and Evaluation Suite for Basque**
-  [论文](https://aclanthology.org/2024.acl-long.799) · Julen Etxaniz, Oscar Sainz, Naiara Perez Miguel, Itziar Aldabe, German Rigau, Eneko Agirre 等
-
-* **Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research**
-  [论文](https://aclanthology.org/2024.acl-long.840) · Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur 等
-  开放预训练语料本身就是结果，否则别人无法重复你声称的训练。
-
-* **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents**
-  [论文](https://aclanthology.org/2024.acl-long.850) · Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li 等
+* **OLMo: Accelerating the Science of Language Models**
+  [论文](https://aclanthology.org/2024.acl-long.841) · Dirk Groeneveld, Iz Beltagy, Evan Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord 等
+  连训练数据、代码和中间检查点一起放开，语言模型研究才有办法被别人核对。
 
 ## 2023
 
@@ -1286,7 +1298,7 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   把词的意义拆成可以相加的非上下文分量，再看模型预测时用了哪一个分量。
 
 * **Causes and Cures for Interference in Multilingual Translation**
-  链接待补充 · Uri Shaham, Maha Elbayad, Vedanuj Goswami, Omer Levy, Shruti Bhosale
+  [论文](https://aclanthology.org/2023.acl-long.883/) · Uri Shaham, Maha Elbayad, Vedanuj Goswami, Omer Levy, Shruti Bhosale
   多语言翻译里语言之间会互相干扰，这篇把干扰的来源和缓解放在一起看。
 
 ### Honorable Mention
@@ -1330,25 +1342,29 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **UniCoRN: Unified Cognitive Signal ReconstructioN bridging cognitive signals and human language**
   [论文](https://aclanthology.org/2023.acl-long.741) · Nuwa Xi, Sendong Zhao, Haochun Wang, Chi Liu, Bing Qin, Ting Liu
 
-### Theme Paper Award
-
-* **Weaker Than You Think: A Critical Look at Weakly Supervised Learning**
-  [论文](https://aclanthology.org/2023.acl-long.796) · Dawei Zhu, Xiaoyu Shen, Marius Mosbach, Andreas Stephan, Dietrich Klakow
+* **Human Inspired Progressive Alignment and Comparative Learning for Grounded Word Acquisition**
+  [论文](https://aclanthology.org/2023.acl-long.863/) · Yuwei Bao, Barrett Lattimer, Joyce Chai
+  用比较属性异同的过程，让模型在很少的样本里抽出同一个词所指的共同东西。
 
 ### Social Impact Award
 
 * **Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models**
   [论文](https://aclanthology.org/2023.acl-long.84) · Myra Cheng, Esin Durmus, Dan Jurafsky
 
+### Resource Award
+
+* **When Does Translation Require Context? A Data-driven, Multilingual Exploration**
+  [论文](https://aclanthology.org/2023.acl-long.36) · Patrick Fernandes, Kayo Yin, Emmy Liu, André Martins, Graham Neubig
+
 ### Reproduction Award
 
 * **Do CoNLL-2003 Named Entity Taggers Still Work Well in 2023?**
   [论文](https://aclanthology.org/2023.acl-long.459) · Shuheng Liu, Alan Ritter
 
-### Resource Award
+### Theme Paper Award
 
-* **When Does Translation Require Context? A Data-driven, Multilingual Exploration**
-  [论文](https://aclanthology.org/2023.acl-long.36) · Patrick Fernandes, Kayo Yin, Emmy Liu, André Martins, Graham Neubig
+* **Weaker Than You Think: A Critical Look at Weakly Supervised Learning**
+  [论文](https://aclanthology.org/2023.acl-long.796) · Dawei Zhu, Xiaoyu Shen, Marius Mosbach, Andreas Stephan, Dietrich Klakow
 
 ## 2022
 
@@ -1361,7 +1377,7 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 ### Outstanding Paper
 
 * **Evaluating Factuality in Text Simplification**
-  链接待补充 · Ashwin Devaraj, William Berkeley Sheffield, Byron C. Wallace, Junyi Jessy Li
+  [论文](https://aclanthology.org/2022.acl-long.506/) · Ashwin Devaraj, William Berkeley Sheffield, Byron C. Wallace, Junyi Jessy Li
   简化文本很容易把事实改掉，评测必须单独看事实还在不在。
 
 * **Online Semantic Parsing for Latency Reduction in Task-Oriented Dialogue**
@@ -1369,7 +1385,7 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   任务型对话不必等整句说完再解析，在线解析是为了把延迟降下来。
 
 * **Learning to Generalize to More: Continuous Semantic Augmentation for Neural Machine Translation**
-  链接待补充 · Xiangpeng Wei, Heng Yu, Yue Hu, Rongxiang Weng, Weihua Luo, Rong Jin
+  [论文](https://aclanthology.org/2022.acl-long.546/) · Xiangpeng Wei, Heng Yu, Yue Hu, Rongxiang Weng, Weihua Luo, Rong Jin
   翻译的泛化可以靠连续的语义增广，而不是只换一批平行句。
 
 * **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity**
@@ -1389,19 +1405,19 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   生成评测不必两两比完，主动选择比较可以少问很多次。
 
 * **Compression of Generative Pre-trained Language Models via Quantization**
-  链接待补充 · Chaofan Tao, Lu Hou, Wei Zhang, Lifeng Shang, Xin Jiang, Qun Liu, Ping Luo, Ngai Wong
+  [论文](https://aclanthology.org/2022.acl-long.331/) · Chaofan Tao, Lu Hou, Wei Zhang, Lifeng Shang, Xin Jiang, Qun Liu, Ping Luo, Ngai Wong
   生成式预训练模型的压缩要面对生成，而不只是分类精度。
 
 ### Best Special Theme Paper
 
 * **Requirements and Motivations of Low-Resource Speech Synthesis for Language Revitalization**
-  链接待补充 · Aidan Pine, Dan Wells, Nathan Brinklow, Patrick William Littell, Korin Richmond
+  [论文](https://aclanthology.org/2022.acl-long.507/) · Aidan Pine, Dan Wells, Nathan Brinklow, Patrick William Littell, Korin Richmond
   把低资源语音合成放回语言复兴的真实需求，而不是默认技术指标就是社区要的东西。
 
 ### Best Linguistic Insight Paper
 
 * **KinyaBERT: a Morphology-aware Kinyarwanda Language Model**
-  链接待补充 · Antoine Nzeyimana, Andre Niyongabo Rubungo
+  [论文](https://aclanthology.org/2022.acl-long.367/) · Antoine Nzeyimana, Andre Niyongabo Rubungo
   形态丰富的语言不该被当成缺数据的英语；模型要先承认词的内部结构。
 
 ### Best Resource Paper
@@ -1549,15 +1565,15 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **Autoformalization in the Wild: Assessing LLMs on Real-World Mathematical Definitions**
   [论文](https://aclanthology.org/2025.emnlp-main.90) · Lan Zhang, Marco Valentino, Andre Freitas
 
-### Social Impact Award
-
-* **AccessEval: Benchmarking Disability Bias in Large Language Models**
-  [论文](https://aclanthology.org/2025.emnlp-main.1653) · Srikant Panda, Amit Agarwal, Hitesh Laxmichand Patel
-
 ### People's Choice Award
 
 * **Randomly Removing 50% of Dimensions in Text Embeddings has Minimal Impact on Retrieval and Classification Tasks**
   [论文](https://aclanthology.org/2025.emnlp-main.1410) · Sotaro Takeshita, Yurina Takeshita, Daniel Ruffinelli, Simone Paolo Ponzetto
+
+### Social Impact Award
+
+* **AccessEval: Benchmarking Disability Bias in Large Language Models**
+  [论文](https://aclanthology.org/2025.emnlp-main.1653) · Srikant Panda, Amit Agarwal, Hitesh Laxmichand Patel
 
 ## 2024
 
@@ -1587,7 +1603,7 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://aclanthology.org/2024.emnlp-main.406) · Yunmo Chen, Tongfei Chen, Harsh Jhamtani, Patrick Xia, Richard Shin, Jason Eisner, Benjamin Van Durme
 
 * **Measuring Psychological Depth in Language Models**
-  链接待补充 · Fabrice Y Harel-Canada, Hanyu Zhou, Sreya Muppalla, Zeynep Senahan Yildiz, Miryung Kim, Amit Sahai, Nanyun Peng
+  [论文](https://aclanthology.org/2024.emnlp-main.953/) · Fabrice Y Harel-Canada, Hanyu Zhou, Sreya Muppalla, Zeynep Senahan Yildiz, Miryung Kim, Amit Sahai, Nanyun Peng
 
 * **Do LLMs Plan Like Human Writers? Comparing Journalist Coverage of Press Releases with LLMs**
   [论文](https://aclanthology.org/2024.emnlp-main.1216) · Alexander Spangher, Nanyun Peng, Sebastian Gehrmann, Mark Dredze
@@ -1637,16 +1653,9 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **Which questions should I answer? Salience Prediction of Inquisitive Questions**
   [论文](https://aclanthology.org/2024.emnlp-main.1114) · Yating Wu, Ritika Rajesh Mangla, Alex Dimakis, Greg Durrett, Junyi Jessy Li
 
-### Best Social Impact Paper
-
-* **What the Harm? Quantifying the Tangible Impact of Gender Bias in Machine Translation with a Human-centered Study**
-  [论文](https://aclanthology.org/2024.emnlp-main.1002) · Beatrice Savoldi, Sara Papi, Matteo Negri, Ana Guerberof-Arenas, Luisa Bentivogli
-
-* **STOP! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions**
-  [论文](https://aclanthology.org/2024.emnlp-main.243) · Robert Morabito, Sangmitra Madhusudan, Tyler McDonald, Ali Emami
-
-* **Twists, Humps, and Pebbles: Multilingual Speech Recognition Models Exhibit Gender Performance Gaps**
-  链接待补充 · Giuseppe Attanasio, Beatrice Savoldi, Dennis Fucci, Dirk Hovy
+* **Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing**
+  [论文](https://aclanthology.org/2024.emnlp-main.20/) · Fangkai Jiao, Chengwei Qin, Zhengyuan Liu, Nancy F. Chen, Shafiq Joty
+  把推理当成规划来收集轨迹，并合成过程奖励，而不是只看最后答对没有。
 
 ### Best Special Theme Paper
 
@@ -1660,6 +1669,17 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 
 * **A User-Centric Multi-Intent Benchmark for Evaluating Large Language Models**
   [论文](https://aclanthology.org/2024.emnlp-main.210) · Jiayin Wang, Fengran Mo, Weizhi Ma, Peijie Sun, Min Zhang, Jian-Yun Nie
+
+### Best Social Impact Paper
+
+* **What the Harm? Quantifying the Tangible Impact of Gender Bias in Machine Translation with a Human-centered Study**
+  [论文](https://aclanthology.org/2024.emnlp-main.1002) · Beatrice Savoldi, Sara Papi, Matteo Negri, Ana Guerberof-Arenas, Luisa Bentivogli
+
+* **STOP! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions**
+  [论文](https://aclanthology.org/2024.emnlp-main.243) · Robert Morabito, Sangmitra Madhusudan, Tyler McDonald, Ali Emami
+
+* **Twists, Humps, and Pebbles: Multilingual Speech Recognition Models Exhibit Gender Performance Gaps**
+  [论文](https://aclanthology.org/2024.emnlp-main.1188/) · Giuseppe Attanasio, Beatrice Savoldi, Dennis Fucci, Dirk Hovy
 
 ## 2023
 
@@ -1823,18 +1843,18 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 ### Best Paper Runner-up
 
 * **REL-A.I.: An Interaction-Centered Approach To Measuring Human-LM Reliance**
-  链接待补充 · Kaitlyn Zhou, Jena D. Hwang, Xiang Ren, Nouha Dziri, Dan Jurafsky, Maarten Sap
+  [论文](https://aclanthology.org/2025.naacl-long.556/) · Kaitlyn Zhou, Jena D. Hwang, Xiang Ren, Nouha Dziri, Dan Jurafsky, Maarten Sap
   人有多依赖模型，要在交互过程里量，而不是问一句你信不信它。
-
-### Best Theme Paper
-
-* **WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines**
-  [论文](https://aclanthology.org/2025.naacl-long.167) · Genta Indra Winata, Frederikus Hudi, Patrick Amadeus Irawan, David Anugraha, Rifki Afina Putri, WANG YUTONG 等
 
 ### Best Social Impact Paper
 
 * **FLEURS-ASL: Including American Sign Language in Massively Multilingual Multitask Evaluation**
   [论文](https://aclanthology.org/2025.naacl-long.314) · Garrett Tanzer
+
+### Best Theme Paper
+
+* **WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines**
+  [论文](https://aclanthology.org/2025.naacl-long.167) · Genta Indra Winata, Frederikus Hudi, Patrick Amadeus Irawan, David Anugraha, Rifki Afina Putri, WANG YUTONG 等
 
 ### Best Theme Paper Runner-up
 
@@ -1868,7 +1888,7 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   大模型里的模块化不一定要预先设计，有可能从训练里长出来。
 
 * **R-Tuning: Instructing Large Language Models to Say `I Don't Know'**
-  链接待补充 · Hanning Zhang, Shizhe Diao, Yong Lin, Yi Fung, Qing Lian, Xingyao Wang 等
+  [论文](https://aclanthology.org/2024.naacl-long.394/) · Hanning Zhang, Shizhe Diao, Yong Lin, Yi Fung, Qing Lian, Xingyao Wang 等
   让模型学会拒答，本身可以作为指令微调的目标，而不是只在推理时加一句提示。
 
 * **Teaching Language Models to Self-Improve through Interactive Demonstrations**
@@ -1879,11 +1899,11 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://aclanthology.org/2024.naacl-long.179) · Shayne Longpre, Gregory Yauney, Emily Reif, Katherine Lee, Adam Roberts, Barret Zoph 等
   预训练数据的年龄、领域、质量和毒性要分开量，不能合成一个干净分数。
 
-### Best Theme Paper
+### Best Resource Paper
 
-* **Grammar-based Data Augmentation for Low-Resource Languages: The Case of Guarani-Spanish Neural Machine Translation**
-  链接待补充 · Agustín Lucas, Alexis Baladón, Victoria Pardiñas, Marvin M. Agüero-Torales, Santiago Góngora, Luis Chiruzzo
-  低资源翻译的增广可以用语法来做，而不是只回译。
+* **Exploring Cross-Cultural Differences in English Hate Speech Annotations: From Dataset Construction to Analysis**
+  [论文](https://aclanthology.org/2024.naacl-long.236) · Nayeon Lee, Chani Jung, Junho Myung, Jiho Jin, Jose Camacho-Collados, Juho Kim, Alice Oh
+  同一句英语算不算仇恨，不同文化的标注者并不一致，数据集必须把这个差异留下来。
 
 ### Best Social Impact Paper
 
@@ -1891,11 +1911,11 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://aclanthology.org/2024.naacl-long.316) · Siqi Shen, Lajanugen Logeswaran, Moontae Lee, Honglak Lee, Soujanya Poria, Rada Mihalcea
   文化常识不是英语常识的翻译，模型的能力和限度要按文化来写。
 
-### Best Resource Paper
+### Best Theme Paper
 
-* **Exploring Cross-Cultural Differences in English Hate Speech Annotations: From Dataset Construction to Analysis**
-  [论文](https://aclanthology.org/2024.naacl-long.236) · Nayeon Lee, Chani Jung, Junho Myung, Jiho Jin, Jose Camacho-Collados, Juho Kim, Alice Oh
-  同一句英语算不算仇恨，不同文化的标注者并不一致，数据集必须把这个差异留下来。
+* **Grammar-based Data Augmentation for Low-Resource Languages: The Case of Guarani-Spanish Neural Machine Translation**
+  [论文](https://aclanthology.org/2024.naacl-long.354/) · Agustín Lucas, Alexis Baladón, Victoria Pardiñas, Marvin M. Agüero-Torales, Santiago Góngora, Luis Chiruzzo
+  低资源翻译的增广可以用语法来做，而不是只回译。
 
 ## 2023
 
@@ -1905,13 +1925,19 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 
 ### Honorable Mention
 
-* **Balanced Data Approach for Evaluating Cross-Lingual Transfer: Mapping the Linguistic Blood Bank**
-  [论文](https://aclanthology.org/2022.naacl-main.361) · Dan Malkin, Tomasz Limisiewicz, Gabriel Stanovsky
+* **A Balanced Data Approach for Evaluating Cross-Lingual Transfer: Mapping the Linguistic Blood Bank**
+  [论文](https://aclanthology.org/2022.naacl-main.361/) · Dan Malkin, Tomasz Limisiewicz, Gabriel Stanovsky
   跨语言迁移的评测数据本身可能不平衡，先把语言覆盖画清楚。
 
-* **NewsEdits: A Dataset of News Article Revision Histories and a Novel Document-Level Reasoning Challenge**
+* **NewsEdits: A News Article Revision Dataset and a Novel Document-Level Reasoning Challenge**
   [论文](https://aclanthology.org/2022.naacl-main.10/) · Alexander Spangher, Xiang Ren, Jonathan May, Nanyun Peng
   新闻的修改历史是文档级推理的资源，不只是另一份摘要数据。
+
+### Honorable Mention (human-centered NLP)
+
+* **Automatic Correction of Human Translations**
+  [论文](https://aclanthology.org/2022.naacl-main.36/) · Jessy Lin, Geza Kovacs, Aditya Shastry, Joern Wuebker, John DeNero
+  同一篇同时拿到新任务/新资源奖，以及以人为中心主题的荣誉提名。
 
 ### Best Paper (new task)
 
@@ -1919,11 +1945,11 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://aclanthology.org/2022.naacl-main.269) · Robert L. Logan IV, Alexandre Tachard Passos, Sameer Singh, Ming-Wei Chang
   文本里的事实会过期，更新文本是和纠错不同的任务。
 
-### Best Paper (efficient NLP)
+### Best Paper (new method)
 
-* **FNet: Mixing Tokens with Fourier Transforms**
-  链接待补充 · James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon
-  用无参数的傅里叶变换代替自注意力来混合 token，追问注意力是不是唯一的混合方式。
+* **NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics**
+  [论文](https://aclanthology.org/2022.naacl-main.57) · Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi 等
+  带约束的生成是搜索问题，向前看一步的启发式比生成完再过滤更接近解码本身。
 
 ### Best Paper (human-centered NLP)
 
@@ -1931,17 +1957,17 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://aclanthology.org/2022.naacl-main.29) · Tom Knoll, Francesco Moramarco, Alex Papadopoulos Korfiatis, Rachel Young, Claudia Ruffini, Mark Perera 等
   病历生成该怎么做，要让真正写病历的人参与定义，而不是只优化摘要分数。
 
+### Best Paper (efficient NLP)
+
+* **FNet: Mixing Tokens with Fourier Transforms**
+  [论文](https://aclanthology.org/2022.naacl-main.319/) · James Lee-Thorp, Joshua Ainslie, Ilya Eckstein, Santiago Ontanon
+  用无参数的傅里叶变换代替自注意力来混合 token，追问注意力是不是唯一的混合方式。
+
 ### Best Paper (new task and new resource)
 
 * **Automatic Correction of Human Translations**
   [论文](https://aclanthology.org/2022.naacl-main.36) · Jessy Lin, Geza Kovacs, Aditya Shastry, Joern Wuebker, John DeNero
   改的是人的译文，不是机器译文；任务、数据和译员一起定义。
-
-### Best Paper (new method)
-
-* **NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics**
-  [论文](https://aclanthology.org/2022.naacl-main.57) · Ximing Lu, Sean Welleck, Peter West, Liwei Jiang, Jungo Kasai, Daniel Khashabi 等
-  带约束的生成是搜索问题，向前看一步的启发式比生成完再过滤更接近解码本身。
 
 # AAAI
 
@@ -2004,7 +2030,7 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 ### Outstanding Paper, AI for Social Alignment
 
 * **DivShift: Exploring Domain-Specific Distribution Shifts in Large-Scale, Volunteer-Collected Biodiversity Datasets**
-  [论文](https://arxiv.org/abs/2410.19816) · Elena Sierra, Lauren Gillespie, Moises Exposito-Alonso
+  [论文](https://arxiv.org/abs/2410.19816) · Elena Sierra, Lauren Gillespie, Salim Soltani, Moises Exposito-Alonso, Teja Kattenborn
   分析志愿者采集的大规模生物多样性数据里，特定域的分布偏移从哪来。
 
 ## 2024
@@ -2023,17 +2049,11 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://arxiv.org/abs/2306.14858) · Nikhil Chandak, Shashwat Goel, Dominik Peters
   把比例代表式的偏好聚合扩展到序贯决策，使少数偏好不会在每一步都被吃掉。
 
-### Best Student Paper Honorable Mention, AI for Social Impact
+### Best Student Paper, AI for Social Impact
 
-* **Is My Prediction Arbitrary? The Confounding Effects of Variance in Fair Classification Benchmarks**
-  [论文](https://arxiv.org/abs/2301.11562) · A. Feder Cooper, Katherine Lee, Madiha Choksi, Solon Barocas, Christopher De Sa, James Grimmelmann 等
-  指出公平分类基准的方差会让结论看起来像任意的，模型之间的差别可能只是噪声。
-
-### Best Paper Honorable Mention, AI for Social Impact
-
-* **Nowcasting Temporal Trends Using Indirect Surveys**
-  [论文](https://arxiv.org/abs/2307.06643) · Ajitesh Srivastava, Juan Marcos Ramirez, Sergio Díaz, Jose Aguilar, Antonio Fernández Anta, Antonio Ortega, Rosa Lillo
-  用间接调查而非直接提问来临近预报时间趋势。
+* **Scaling Up Pareto Optimization for Tree Structures with Affine Transformations: Evaluating Hybrid Floating Solar-Hydropower Systems in the Amazon**
+  [论文](https://ojs.aaai.org/index.php/AAAI/article/view/30210) · Marc Grimson, Rafael Almeida, Qinru Shi, Yiwei Bai, Hector Angarita, Felipe Siqueira Pacheco 等
+  把树上的帕累托优化放大，用来评估亚马逊水电与漂浮光伏的混合方案。
 
 ### Best Paper, AI for Social Impact
 
@@ -2041,11 +2061,17 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
   [论文](https://arxiv.org/abs/2306.03151) · Gustavo Perez, Subhransu Maji, Daniel Sheldon
   用检测器做重要性采样，在大规模图像集合里估计物体数量，而不必看完每一张。
 
-### Best Student Paper, AI for Social Impact
+### Best Paper Honorable Mention, AI for Social Impact
 
-* **Scaling Up Pareto Optimization for Tree Structures with Affine Transformations: Evaluating Hybrid Floating Solar-Hydropower Systems in the Amazon**
-  [论文](https://ojs.aaai.org/index.php/AAAI/article/view/30210) · Marc Grimson, Rafael Almeida, Qinru Shi, Yiwei Bai, Hector Angarita, Felipe Siqueira Pacheco 等
-  把树上的帕累托优化放大，用来评估亚马逊水电与漂浮光伏的混合方案。
+* **Nowcasting Temporal Trends Using Indirect Surveys**
+  [论文](https://arxiv.org/abs/2307.06643) · Ajitesh Srivastava, Juan Marcos Ramirez, Sergio Díaz, Jose Aguilar, Antonio Fernández Anta, Antonio Ortega, Rosa Lillo
+  用间接调查而非直接提问来临近预报时间趋势。
+
+### Best Student Paper Honorable Mention, AI for Social Impact
+
+* **Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification**
+  [论文](https://ojs.aaai.org/index.php/AAAI/article/view/30203) · A. Feder Cooper, Katherine Lee, Madiha Choksi, Solon Barocas, Christopher De Sa, James Grimmelmann 等
+  授奖页用的是 Is My Prediction Arbitrary；proceedings 标题是这一条。公平榜上的胜负如果经不起重复训练，就不该写成结论。
 
 ## 2023
 
@@ -2170,6 +2196,30 @@ NeurIPS 2026 截至 2026 年 11 月 25 日尚未公布最佳论文。NAACL 在 2
 * **The SoftCumulative Constraint with Quadratic Penalty**
   [论文](https://doi.org/10.1609/aaai.v36i4.20296) · Yanick Ouellet, Claude-Guy Quimper
   给软累积约束配上二次罚，使资源超限可以被连续地惩罚而不是直接判不可行。
+
+## 时间检验奖
+
+原论文早于 2022，是后来的会议回看约十年前的工作。不放进上面各年的研究地图。
+
+* **Toward an Architecture for Never-Ending Language Learning**（AAAI Classic Paper Award，2025 年颁发，原论文 2010）
+  [论文](https://ojs.aaai.org/index.php/AAAI/article/view/7519) · Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam Hruschka, Tom Mitchell
+  NELL 把语言学习写成一个不停读网页、不停改信念的系统，而不是一次训练结束。
+
+* **Maximum Entropy Inverse Reinforcement Learning**（AAAI Classic Paper Award，2024 年颁发，原论文 2008）
+  [论文](https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf) · Brian D. Ziebart, Andrew Maas, J. Andrew Bagnell, Anind K. Dey
+  最大熵逆强化学习让演示对应一整族策略，而不是一条唯一轨迹。
+
+* **Theta*: Any-Angle Path Planning on Grids**（AAAI Classic Paper Award，2023 年颁发，原论文 2007）
+  [论文](https://cdn.aaai.org/AAAI/2007/AAAI07-187.pdf) · Alex Nash, Kenny Daniel, Sven Koenig, Ariel Felner
+  在网格上找任意角度的路径，不必先被格子的边绑死。
+
+* **Winning the DARPA Grand Challenge with an AI Robot**（AAAI Classic Paper Award，2022 年颁发，原论文 2006）
+  [论文](https://www.aaai.org/Papers/AAAI/2006/AAAI06-154.pdf) · Michael Montemerlo, Sebastian Thrun, Hendrik Dahlkamp, David Stavens, Sven Strohband
+  沙漠挑战赛的系统论文：感知、规划和控制要在一辆车上同时成立。
+
+* **Corpus-Based and Knowledge-Based Measures of Text Semantic Similarity**（AAAI Classic Paper Honorable Mention，2022 年颁发，原论文 2006）
+  [论文](https://cdn.aaai.org/AAAI/2006/AAAI06-123.pdf) · Rada Mihalcea, Courtney Corley, Carlo Strapparava
+  语义相似度可以同时用语料共现和知识库，不必二选一。
 
 # 还没写上的
 
